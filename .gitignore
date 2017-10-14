@@ -1,3 +1,12 @@
 bin/
 **/.svn/
 **/*~
+
+# ignore all backend props with sensitive info
+*_dev.properties
+*_qa.properties
+*_qas.properties
+*_prod.properties
+
+# ignore logfile
+*.trc
