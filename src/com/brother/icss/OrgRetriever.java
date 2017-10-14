@@ -38,7 +38,7 @@ public class OrgRetriever {
 
 		        // Set the first (and only) input parameter
 		        // "dickdev@abc.nl"
-		        String emailAddress = "TYMROVA@DAMEDIS.CZ";
+		        String emailAddress = "DICK.DIJK@PERFECTFORPEOPLE.NL";// "TYMROVA@DAMEDIS.CZ";
 		        input.setValue(emailAddress, "EMAIL");
 		        input.setValue("EN", "LOGIN_LANGUAGE");
 		     

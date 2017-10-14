@@ -40,9 +40,9 @@ public class SapClient {
 			System.out.println("Prompting for backend");
 			selectedValue = getBackendConnection(propFiles);
 		} else {
-			//selectedValue = "brother_icss_dev.properties";
-			selectedValue = "brother_icss_qa.properties";
-		//	 selectedValue = "brother_icss_prod.properties";
+			 selectedValue = "brother_icss_dev.properties";
+	//	selectedValue = "brother_icss_qa.properties";
+	//	 selectedValue = "brother_icss_prod.properties";
 			System.out.println("Using fixed backend: " + selectedValue);
 
 		}
